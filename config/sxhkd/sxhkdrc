@@ -5,6 +5,9 @@
 #################################################################
 # SUPER + FUNCTION KEYS
 #################################################################
+#####################ONLY FOR MY VIRTUAL BOX#####################
+#####################  (  you can edit )   ######################
+#################################################################
 
 super + p 
 	flameshot gui
@@ -73,7 +76,7 @@ super + KP_Enter
 
 #File-Manager
 alt + shift + Return
-	pcmanfm
+	dolphin
 
 #Keyboard dependent
 #File-Manager
@@ -346,7 +349,7 @@ super + bracket{left,right}
 	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5 ))
 
 # set the window state
-super + space
+alt + space
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # Move focus to other monitor
