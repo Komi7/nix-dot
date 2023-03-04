@@ -20,3 +20,5 @@ prompt
 EOF
 
 # vim:ft=zsh:nowrap
+#source ~/.config/zsh/fsh/fast-syntax-highlighting.plugin.zsh
+#zinit light zdharma-continuum/fast-syntax-highlighting
