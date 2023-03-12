@@ -5,9 +5,6 @@
 #################################################################
 # SUPER + FUNCTION KEYS
 #################################################################
-#####################ONLY FOR MY VIRTUAL BOX#####################
-#####################  (  you can edit )   ######################
-#################################################################
 
 super + p 
 	flameshot gui
@@ -18,14 +15,14 @@ super + shift + p
 
 #Brave
 super + w
-	brave
+	firefox
 
 #Rofi Fullscreen
 super + F11
     rofi -theme-str 'window \{width: 100%;height: 100%;\}' -show drun
 
 #Rofi
-alt + s
+super + s
     rofi -show drun
 
 super + F10
@@ -42,12 +39,12 @@ super + F12
 
 #Htop
 super + h
-    termite 'btop task manager' -e btop
+    alacriity -e btop
 
 
 #Rofi theme selector
-super + r
-    rofi-theme-selector
+#shift + r
+ #   alacriity -e ranger
 
 #Pavucontrol
 super + v
@@ -55,14 +52,14 @@ super + v
 
 #Pragha
 super + m
-    xterm
+    pragha
 
 #alacritty
-alt + Return
+super + Return
     alacritty
 
 #Xkill
-super + Escape
+super + shift + Escape
     xkill
 
 #Keyboard dependent
@@ -75,8 +72,8 @@ super + KP_Enter
 #################################################################
 
 #File-Manager
-alt + shift + Return
-	dolphin
+super + shift + Return
+	pcmanfm
 
 #Keyboard dependent
 #File-Manager
@@ -231,11 +228,11 @@ ctrl + shift + Escape
 #################################################################
 
 #Scrot
-Print
-    scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+#Print
+ #   scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 
 #screeenshooter
-ctrl + Print
+#ctrl + Print
      xfce4-screenshooter
 
 
@@ -325,7 +322,7 @@ ctrl + alt + o
 #################################################################
 
 #Toggle fullscreen of window
-alt + f
+super + f
 	bspc node --state \~fullscreen
 
 # Toggle pseudo tiling of window
@@ -333,7 +330,7 @@ super + p
 	bspc node --state \~pseudo_tiled
 
 #kill
-alt + q
+super + q
 	bspc node -c
 
 #################################################################
@@ -349,7 +346,7 @@ super + bracket{left,right}
 	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5 ))
 
 # set the window state
-alt + space
+super + space
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # Move focus to other monitor
@@ -378,7 +375,7 @@ super + ctrl + space
 
 
 #Reload bspwm
-alt + shift + r
+super + shift + r
 	~/.config/bspwm/bspwmrc
 
 #kill

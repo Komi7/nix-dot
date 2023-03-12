@@ -30,7 +30,7 @@ setxkbmap -layout us
 #Monitor Config
 bspc config remove_unplugged_monitors true
 bspc config remove_disabled_monitors true
-bspc monitor -d     
+bspc monitor -d 1 2 3 4
 
 #BSPWM Config
 bspc config border_width        0

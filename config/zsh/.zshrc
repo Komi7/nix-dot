@@ -22,3 +22,6 @@ EOF
 # vim:ft=zsh:nowrap
 #source ~/.config/zsh/fsh/fast-syntax-highlighting.plugin.zsh
 #zinit light zdharma-continuum/fast-syntax-highlighting
+[[ -s /home/nix/.autojump/etc/profile.d/autojump.sh ]] && source /home/nix/.autojump/etc/profile.d/autojump.sh
+
+	autoload -U compinit && compinit -u
