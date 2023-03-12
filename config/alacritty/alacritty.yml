@@ -42,7 +42,7 @@ font:
   draw_bold_text_with_bright_colors: false
 # Background opacity from 0.0 transparent, 1.0 Opaque
 window:
-  opacity: 0.4
+  opacity: 0.8
 # Terminal colors
 colors:
   primary:
