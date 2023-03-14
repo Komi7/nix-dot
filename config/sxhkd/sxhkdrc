@@ -39,7 +39,7 @@ super + F12
 
 #Htop
 super + h
-    alacriity -e btop
+    wezterm start btop
 
 
 #Rofi theme selector
@@ -57,7 +57,8 @@ super + m
 #alacritty
 super + Return
     alacritty
-
+super + x
+    wezterm
 #Xkill
 super + shift + Escape
     xkill
