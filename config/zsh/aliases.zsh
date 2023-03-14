@@ -297,7 +297,7 @@ alias ll='lsd -la --group-directories-first'
 #fix obvious typo's
 alias cd..='cd ..'
 alias pdw='pwd'
-alias systemup='cd ~/flake/ && sudo nixos-rebuild switch --flake .#nix'
+alias systemup='cd ~/flake/ && sudo nixos-rebuild switch --flake .#shousuke'
 alias home.pkgs='cd ~/flake/ && sudo nvim bspwm.nix'
 alias vi='nvim'
 alias sddm-on='sudo systemctl enable sddm'
