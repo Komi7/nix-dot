@@ -2,3 +2,7 @@
 
 
 [[file:https://raw.githubusercontent.com/Komi7/resources/main/nixos-wall.png]]
+[[file:https://raw.githubusercontent.com/Komi7/resources/main/screenshot/nixos-full-screen.png]]
+
+
+[wallpaper_link](github.com/komi7)
