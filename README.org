@@ -1,9 +1,11 @@
 
 
 
-- [[file:https://raw.githubusercontent.com/Komi7/resources/main/nixos-wall.png]] 
+[[file:https://raw.githubusercontent.com/Komi7/resources/main/nixos-wall.png]] 
 
-- [[file:https://raw.githubusercontent.com/Komi7/resources/main/screenshot/nixos-full-screen.png]]
+***
+
+[[file:https://raw.githubusercontent.com/Komi7/resources/main/screenshot/nixos-full-screen.png]]
 
 
-- [[https://nixos.org/][NixOS]]
+- [[https://github.com/Komi7/random-wallpaper/blob/main/wallhaven-we1d5r.png][WallPaper_Link]]
