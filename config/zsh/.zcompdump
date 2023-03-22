@@ -376,6 +376,10 @@ _comps=(
 'dumpadm' '_dumpadm'
 'dumper' '_dumper'
 'dumper.exe' '_dumper'
+'_dunst' '_dunst'
+'dunst' '_dunst'
+'_dunstctl' '_dunstctl'
+'dunstctl' '_dunstctl'
 'dupload' '_dupload'
 'dvibook' '_dvi'
 'dviconcat' '_dvi'
@@ -788,6 +792,7 @@ _comps=(
 'ispell' '_ispell'
 'iwconfig' '_iwconfig'
 'iwyu' '_include-what-you-use'
+'j' '_j'
 'jadetex' '_tex'
 'jail' '_jail'
 'jar' '_java'
@@ -811,7 +816,6 @@ _comps=(
 'jq' '_jq'
 'jrnl' '_jrnl'
 'kak' '_kak'
-'kcmshell5' '_systemsettings'
 'kdeconnect-cli' '_kdeconnect'
 'kdump' '_kdump'
 'keystone' '_openstack'
@@ -820,7 +824,6 @@ _comps=(
 'kill' '_kill'
 'killall' '_killall'
 'killall5' '_killall'
-'kinfocenter' '_systemsettings'
 'kioclient' '_kfmclient'
 'kitchen' '_kitchen'
 'kldload' '_kld'
@@ -830,7 +833,6 @@ _comps=(
 'konqueror' '_webbrowser'
 'kpartx' '_kpartx'
 'kpdf' '_pdf'
-'kscreen-doctor' '_kscreen-doctor'
 'ksh' '_sh'
 'ksh88' '_sh'
 'ksh93' '_sh'
@@ -1206,7 +1208,6 @@ _comps=(
 'pkgrm' '_pkgrm'
 'pkgtool' '_pkgtool'
 'pkill' '_pgrep'
-'plasmashell' '_plasmashell'
 'play' '_play'
 'pldd' '_pids'
 'plutil' '_plutil'
@@ -1578,8 +1579,6 @@ _comps=(
 'systemd-tmpfiles' '_systemd-tmpfiles'
 'systemd-tty-ask-password-agent' '_systemd'
 'system_profiler' '_system_profiler'
-'systemsettings' '_systemsettings'
-'systemsettings5' '_systemsettings'
 'sysupgrade' '_sysupgrade'
 'tac' '_tac'
 'tacker' '_openstack'
@@ -2078,48 +2077,48 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _afew _android _archlinux-java _artisan _atach \
-            _avdmanager _bitcoin-cli _bower _bundle _cap \
-            _cask _ccache _cf _choc _chromium \
-            _clang-check _clang-format _clang-tidy _cmake _coffee \
-            _conan _concourse _console _cppcheck _dad \
-            _dget _dhcpcd _diana _direnv _docpad \
-            _drush _ecdsautil _emacs _emacsclient _emulator \
-            _envdir _exportfs _fab _fail2ban-client _fast-theme \
-            _ffind _fleetctl _flutter _fvm _fwupdmgr \
-            _gas _ghc _gist _git-flow _git-pulls \
-            _git-revise _git-wtf _glances _golang _google \
-            _gpgconf _gtk-launch _hello _hledger _homestead \
-            _httpie _ibus _include-what-you-use _inxi _jmeter \
-            _jmeter-plugins _jonas _jrnl _kak _kitchen \
-            _knife _language_codes _lilypond _lunchy _mc \
-            _middleman _mina _mix _mssh _mussh \
-            _mvn _nano _nanoc _neofetch _networkQuality \
-            _nftables _node _nvm _openssl _openvpn3 \
-            _optirun _patool _periscope _pgsql_utils _phing \
-            _pixz _pkcon _play _pm2 _port \
-            _protoc _pygmentize _qmk _rails _ralio \
-            _redis-cli _rfkill _rkt _rmlint _rslsync \
-            _rspec _rsvm _rubocop _sbt _scala \
-            _screencapture _scrub _sdd _sdkmanager _setcap \
-            _setup.py _sfdx _shellcheck _showoff _srm \
-            _stack _subliminal _supervisorctl _svm _teamocil \
-            _thor _tmuxinator _tmuxp _tox _udisksctl \
-            _ufw _virtualbox _vnstat _wemux _wg-quick \
-            _xsel _yaourt _yarn _zcash-cli _zinit \
-            _alacritty _bat _bootctl _bspc _busctl \
-            _coredumpctl _exa _flameshot _fnm _hostnamectl \
-            _journalctl _kscreen-doctor _localectl _loginctl _lsd \
-            _machinectl _mpv _networkctl _nix _nix-build \
-            _nix-channel _nix-collect-garbage _nix-common-options _nix-copy-closure _nix-env \
-            _nix-hash _nix-install-package _nix-instantiate _nixops _nixos-build-vms \
-            _nixos-container _nixos-generate-config _nixos-install _nixos-option _nixos-rebuild \
-            _nixos-version _nixpkgs-review _nix-prefetch-url _nix-push _nix-shell \
-            _nix-store _oomctl _plasmashell _polybar _polybar_msg \
-            _resolvectl _rg _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
-            _sd_unit_files _starship _systemctl _systemd _systemd-analyze \
-            _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run \
-            _systemd-tmpfiles _systemsettings _timedatectl _udevadm _wezterm \
+autoload -Uz _j _afew _android _archlinux-java _artisan \
+            _atach _avdmanager _bitcoin-cli _bower _bundle \
+            _cap _cask _ccache _cf _choc \
+            _chromium _clang-check _clang-format _clang-tidy _cmake \
+            _coffee _conan _concourse _console _cppcheck \
+            _dad _dget _dhcpcd _diana _direnv \
+            _docpad _drush _ecdsautil _emacs _emacsclient \
+            _emulator _envdir _exportfs _fab _fail2ban-client \
+            _fast-theme _ffind _fleetctl _flutter _fvm \
+            _fwupdmgr _gas _ghc _gist _git-flow \
+            _git-pulls _git-revise _git-wtf _glances _golang \
+            _google _gpgconf _gtk-launch _hello _hledger \
+            _homestead _httpie _ibus _include-what-you-use _inxi \
+            _jmeter _jmeter-plugins _jonas _jrnl _kak \
+            _kitchen _knife _language_codes _lilypond _lunchy \
+            _mc _middleman _mina _mix _mssh \
+            _mussh _mvn _nano _nanoc _neofetch \
+            _networkQuality _nftables _node _nvm _openssl \
+            _openvpn3 _optirun _patool _periscope _pgsql_utils \
+            _phing _pixz _pkcon _play _pm2 \
+            _port _protoc _pygmentize _qmk _rails \
+            _ralio _redis-cli _rfkill _rkt _rmlint \
+            _rslsync _rspec _rsvm _rubocop _sbt \
+            _scala _screencapture _scrub _sdd _sdkmanager \
+            _setcap _setup.py _sfdx _shellcheck _showoff \
+            _srm _stack _subliminal _supervisorctl _svm \
+            _teamocil _thor _tmuxinator _tmuxp _tox \
+            _udisksctl _ufw _virtualbox _vnstat _wemux \
+            _wg-quick _xsel _yaourt _yarn _zcash-cli \
+            _zinit _alacritty _bat _bootctl _bspc \
+            _busctl _coredumpctl _dunst _dunstctl _exa \
+            _flameshot _fnm _hostnamectl _journalctl _localectl \
+            _loginctl _lsd _machinectl _mpv _networkctl \
+            _nix _nix-build _nix-channel _nix-collect-garbage _nix-common-options \
+            _nix-copy-closure _nix-env _nix-hash _nix-install-package _nix-instantiate \
+            _nixops _nixos-build-vms _nixos-container _nixos-generate-config _nixos-install \
+            _nixos-option _nixos-rebuild _nixos-version _nixpkgs-review _nix-prefetch-url \
+            _nix-push _nix-shell _nix-store _oomctl _polybar \
+            _polybar_msg _resolvectl _rg _sd_hosts_or_user_at_host _sd_machines \
+            _sd_outputmodes _sd_unit_files _starship _systemctl _systemd \
+            _systemd-analyze _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path \
+            _systemd-run _systemd-tmpfiles _timedatectl _udevadm _wezterm \
             _a2ps _a2utils _aap _abcde _absolute_command_paths \
             _ack _acpi _acpitool _acroread _adb \
             _add-zle-hook-widget _add-zsh-hook _alias _aliases _all_labels \
