@@ -43,8 +43,8 @@ super + h
 
 
 #Rofi theme selector
-#shift + r
- #   alacriity -e ranger
+super + e
+    ranger
 
 #Pavucontrol
 super + v

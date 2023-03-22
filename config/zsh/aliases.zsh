@@ -304,6 +304,14 @@ alias vi='nvim'
 alias sddm-on='sudo systemctl enable sddm'
 alias sddm-off='sudo systemctl disable sddm'
 
-
+#To raise the volume, with a limit of 150%: 
+alias volume-up='wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+'
+alias volume-down='wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-'
+#mute-unmute the volume
+alias volume-m='wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle'
+#mute-unmute the microphone
+alias volume-mm='wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle'
+#show volume level
+alias volume='wpctl get-volume @DEFAULT_AUDIO_SINK@'
 
 # vim:ft=zsh
