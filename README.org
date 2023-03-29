@@ -1,4 +1,5 @@
-[[Polybar Font use `Hack Nerd Font` (font.ini)]]
+[[Polybar Font use `Hack Nerd Font` 
+(fonts.ini)]]
 
 
 [[file:https://raw.githubusercontent.com/Komi7/resources/main/nixos-wall.png]] 
