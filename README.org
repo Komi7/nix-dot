@@ -23,8 +23,4 @@
 
 - Rofi  │ super + s
 
-[[https://raw.githubusercontent.com/Komi7/nix-dot/main/config/sxhkd/sxhkdrc]
-[More...]]
-
-
- [[https://github.com/Komi7/random-wallpaper/blob/main/wallhaven-we1d5r.png][More...]]
+ [[https://raw.githubusercontent.com/Komi7/nix-dot/main/config/sxhkd/sxhkdrc][More...]]
