@@ -9,3 +9,15 @@
 
 
 - [[https://github.com/Komi7/random-wallpaper/blob/main/wallhaven-we1d5r.png][WallPaper_Link]]
+
+
+#### Sxhkd hotkey
+- Terminal | super + Return  `termite/alacritty`
+
+- Web | super + w  `brave`
+
+- File-Manager | super + shift + Return `pcmanfm`
+
+- Rofi  │ super + s
+
+[More...](https://raw.githubusercontent.com/Komi7/dotfile/main/config/sxhkd/sxhkdrc)
