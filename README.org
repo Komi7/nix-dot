@@ -23,4 +23,4 @@
 
 - Rofi  │ super + s
 
-![More...](https://raw.githubusercontent.com/Komi7/nix-dot/main/config/sxhkd/sxhkdrc)
+![[More...]](https://raw.githubusercontent.com/Komi7/nix-dot/main/config/sxhkd/sxhkdrc)
