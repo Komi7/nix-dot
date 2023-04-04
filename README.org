@@ -15,9 +15,9 @@
  
  
  Sxhkd hotkey
-- Terminal | super + Return  `termite/alacritty`
+- Terminal | super + Return  `wezterm/alacritty`
 
-- Web | super + w  `brave`
+- Web | super + w  `firefox`
 
 - File-Manager | super + shift + Return `pcmanfm`
 
