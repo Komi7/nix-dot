@@ -11,7 +11,9 @@ super + p
 
 super + shift + p
 	flameshot full
-
+#lockscreen
+super + shift + l
+   betterlockscreen --lock
 
 #Brave
 super + w
