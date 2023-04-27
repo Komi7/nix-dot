@@ -15,7 +15,7 @@ super + shift + p
 super + shift + l
    betterlockscreen --lock
 
-#Brave
+#firefox
 super + w
 	firefox
 
@@ -45,8 +45,8 @@ super + h
 
 
 #Rofi theme selector
-super + e
-    ranger
+super + shift + h
+    wezterm start lf
 
 #Pavucontrol
 super + v
