@@ -46,7 +46,7 @@ super + h
 
 #Rofi theme selector
 super + shift + h
-    wezterm start lf
+    kitty lf
 
 #Pavucontrol
 super + v
