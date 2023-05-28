@@ -87,3 +87,4 @@ map gr cd ~/repos
 map gv cd ~/videos
 map gs cd ~/.local/bin
 map gt cd ~/.local/share/Trash/files
+map gg cd /run/media/shousuke/HDD
