@@ -1,0 +1,15 @@
+/** Basic config file **/
+
+configuration {
+  show-icons: true;
+  icon-theme: "Papirus";
+  display-drun: "";
+  display-window: "﩯 ";
+  display-combi: "  ";
+}
+//@theme "themes/sidetab-nord.rasi"
+//@theme "/usr/share/rofi/themes/Arc.rasi"
+//@theme "/usr/share/rofi/themes/android_notification.rasi"
+//@theme "/home/pxledit/.local/share/rofi/themes/spotlight-dark.rasi"
+//@theme "/home/pxledit/.local/share/rofi/themes/rofi.rasi"
+@theme "~/.config/rofi/themes/spotlight-dark.rasi"
