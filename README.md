@@ -4,6 +4,9 @@ git clone https://github.com/komi7/nix-dot
 cd nix-dot
 rsync -avxHAXP --exclude '.git*' .* ~/
 ```
+## Screenshot
+
+![Screenshot](https://github.com/Komi7/resources/blob/main/screenshot/Hyprland_desktop.png)
 
 ## Credits
 
