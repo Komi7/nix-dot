@@ -1,4 +1,5 @@
 
+____
 ```sh
 git clone https://github.com/komi7/nix-dot
 cd nix-dot
@@ -21,3 +22,6 @@ _Beauty community: [r/unixporn](https://www.reddit.com/r/unixporn)._
 © [Owl4ce](https://github.com/owl4ce) © [Ilham25](https://github.com/ilham25) ©
 [Siduck](https://github.com/siduck) © [NvChad](https://github.com/NvChad) ©
 [Rxyhn](https://github.com/rxyhn) © [AmitGold](https://github.com/AmitGolden)
+© [Linuxmobile](https://github.com/Linuxmobile) © [Mihai Fufezan](https://github.com/fufexan)
+___
+##### For any Linux System (NIXOS,ARCH,UBUNTU etc)
