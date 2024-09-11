@@ -7,7 +7,7 @@ rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 ## Screenshot
 
-![Screenshot](https://github.com/Komi7/resources/blob/main/screenshot/Hyprland_desktop.png)
+![Screenshot](https://github.com/Komi7/resources/blob/main/Screenshot_12-Sep_05-22-41_2922.png)
 
 ## Credits
 
