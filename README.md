@@ -18,7 +18,7 @@ _Beauty community: [r/unixporn](https://www.reddit.com/r/unixporn)._
 **©** _All of mantainers of this amazing and opensource tools :3_
 
 ---
-
+© [jakoolit](https://github.com/JaKooLit)
 © [Owl4ce](https://github.com/owl4ce) © [Ilham25](https://github.com/ilham25) ©
 [Siduck](https://github.com/siduck) © [NvChad](https://github.com/NvChad) ©
 [Rxyhn](https://github.com/rxyhn) © [AmitGold](https://github.com/AmitGolden)
